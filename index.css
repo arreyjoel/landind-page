@@ -1,0 +1,62 @@
+header{
+  background-color: #1F2937;
+  color: #fff;
+  padding-bottom: 10%;
+}
+.mode{
+  background-color: #fff;
+  text-align: center;
+}
+.type{
+  display: inline-block;
+  width: 30%;
+  padding-left: 35px;
+}
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+  width: 100%;
+  /*overflow: auto;*/
+  justify-content: end;
+  align-items: flex-end;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #535f5b;
+}
+p:first-of-type{
+  text-align: center;
+}
+.info{
+  text-align: justify;
+}
+footer{
+  background-color: #1F2937;
+  padding: 32px 0;
+  text-align: center;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
