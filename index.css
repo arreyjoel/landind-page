@@ -7,6 +7,14 @@ header{
   background-color: #fff;
   text-align: center;
 }
+.summary{
+  display: flex;
+  justify-content: space-between;
+}
+.signup{
+  background-color: blue;
+  display: block;
+}
 .type{
   display: inline-block;
   width: 30%;
@@ -40,9 +48,9 @@ header{
 .active {
   background-color: #535f5b;
 }
-p:first-of-type{
+/*p:first-of-type{
   text-align: center;
-}
+}*/
 .info{
   text-align: justify;
 }
