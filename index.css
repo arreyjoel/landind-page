@@ -11,9 +11,17 @@ header{
   display: flex;
   justify-content: space-between;
 }
+.summary img{
+  margin-top: 2%;
+}
 .signup{
   background-color: blue;
   display: block;
+}
+.call{
+  background-color: rgba(24, 11, 214, 0.952);
+  text-align: center;
+  margin: 5% 25% 5% 25%;
 }
 .type{
   display: inline-block;
@@ -52,7 +60,12 @@ header{
   text-align: center;
 }*/
 .info{
-  text-align: justify;
+  background-color: #535f5b;
+  text-align: center;
+  margin: 0%;
+}
+.info cite{
+  text-align: right;
 }
 footer{
   background-color: #1F2937;
